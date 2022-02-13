@@ -25,6 +25,7 @@ const GlobalStyle = createGlobalStyle<Props>`
     */
     html, body {
         height: 100%;
+        background-color: var(--color-gray-900);
     }
     /*
     Typographic tweaks!

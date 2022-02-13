@@ -19,6 +19,7 @@ export type Theme = {
     head: string;
     body: string;
   };
+  maxWidth: number;
 };
 
 const theme: Theme = {
@@ -27,6 +28,7 @@ const theme: Theme = {
     head: "'Raleway', sans-serif",
     body: "'Nanum Gothic', sans-serif",
   },
+  maxWidth: 1440,
 };
 
 export default theme;
